@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: bchainlog
+# key: log
+# --
+log.WithFields(log.Fields{
+    "func": "",
+    "task": "",
+    "error": err.Error(),
+}).Info("")
